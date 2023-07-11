@@ -1,0 +1,384 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("wallpaperflare.com_wallpaper\(18\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -70px;
+  width: fit-content;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.test {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  font-size: 30px;
+  position: relative;
+  left: 85%;
+}
+
+.Layered-card {
+  position: relative;
+  height: 5rem;
+  width: 50rem;
+  left: 45%;
+  top: 25%;
+  border-radius: 4px;
+  z-index: 0;
+}
+
+.layered-Card-content {
+  left: 0;
+  position: absolute;
+  filter: blur(1px);
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #4c4c4c;
+  border-radius: 4px;
+  filter: opacity(80%);
+  z-index: 0;
+}
+
+
+.search-box {
+  display: flex;
+  opacity: 100%;
+  object-position: calc(width);
+  width: 80%;
+  position: relative;
+  left: 10%;
+  top: 35%;
+  flex-direction: row-reverse;
+  border: transparent;
+  border-radius: 4px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.search-box__input {
+  border-color: transparent;
+  font-family: cursive;
+  width: fit-content;
+  background: radial-gradient(white, rgb(47, 255, 0));
+  flex: 1;
+  z-index: 1;
+}
+
+.Add {
+  background: radial-gradient(rgb(0, 255, 0), blue);
+  border-color: #4c4c4c;
+  z-index: 1;
+  margin-left: 20px;
+}
+
+
+.lc {
+  position: relative;
+  height: 5rem;
+  width: 10rem;
+  left: 10%;
+  top: 100%;
+  border-radius: 4px;
+}
+
+.lcc {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.test2 {
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  font-size: 30px;
+  position: relative;
+  left: 80%;
+  top: 22%
+}
+
+.Add {
+  background: radial-gradient(rgb(255, 255, 255), rgb(255, 0, 0));
+  border-color: #4c4c4c;
+  z-index: 2;
+  margin-left: 10px;
+}
+
+.interface {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.interface h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  z-index: 2;
+}
+
+.interface form {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.interface label {
+  margin-bottom: 10px;
+  z-index: 2;
+}
+
+.interface input[type="date"],
+.interface input[type="time"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  z-index: 2;
+}
+
+.interface button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4c4c4c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.interface button[type="submit"]:hover {
+  background-color: #333;
+  z-index: 2;
+}
+
+.interface-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.lcc span {
+  margin-right: 10px;
+}
+
+.lcc.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+}
+
+.no-tasks {
+  display: inline-block;
+  position: relative;
+  left: 345%;
+  top: 300%;
+  color: white;
+  font-family: cursive;
+  z-index: 0;
+  font-Size: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+}
+
+
+@media (max-width: 412px) {
+  body {
+    background-image: url("digital-art-nature-mountains-portrait-display-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 500%;
+  }
+
+  .test {
+    font-size: 30px;
+    left: 110px;
+  }
+
+  .Layered-card {
+    position: relative;
+    height: 4rem;
+    width:18.5rem;
+    left: 70%;
+    top: 2%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+    z-index: 0;
+  }
+
+  .search-box {
+    object-position: calc(width);
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 30%;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .search-box__input {
+    width: fit-content;
+    background: radial-gradient(white, rgb(47, 255, 0));
+    flex: 1;
+    z-index: 1;
+  }
+
+  .test2 {
+    left: 70px;
+    top: 2%;
+  }
+
+  .no-tasks {
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    top: 300%;
+    color: white;
+    font-family: cursive;
+    z-index: 0;
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+}
+
+
+@media (min-width: 413px) and (max-width: 1023px) {
+  body {
+    background-image: url("digital-art-nature-mountains-portrait-display-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 500%;
+  }
+
+  .test {
+    font-size: 30px;
+    left: 300px;
+  }
+
+  .Layered-card {
+    position: relative;
+    height: 4rem;
+    width:30rem;
+    left:85%;
+    top: 2%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+    z-index: 0;
+  }
+
+  .search-box {
+    object-position: calc(width);
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 30%;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 10px;
+  }
+
+  .search-box__input {
+    width: fit-content;
+    background: radial-gradient(white, rgb(47, 255, 0));
+    flex: 1;
+    z-index: 1;
+  }
+
+  .test2 {
+    left: 250px;
+    top: 2%;
+    margin-top: 10px;
+  }
+
+  .no-tasks {
+    display: inline-block;
+    position: relative;
+    left: 135%;
+    top: 300%;
+    color: white;
+    font-family: cursive;
+    z-index: 0;
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1400px){
+  body {
+    background-image: url("wallpaperflare.com_wallpaper\(18\).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 400%;
+  }
+
+  .test {
+    font-size: 30px;
+    left: 400px;
+  }
+
+  .Layered-card {
+    position: relative;
+    height: 5rem;
+    width:39rem;
+    left:80%;
+    top: 2%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+    z-index: 0;
+  }
+
+  .search-box {
+    object-position: calc(width);
+    width: 91%;
+    position: relative;
+    left: 5%;
+    top: 30%;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 10px;
+  }
+
+  .search-box__input {
+    width: fit-content;
+    background: radial-gradient(white, rgb(47, 255, 0));
+    flex: 1;
+    z-index: 1;
+  }
+
+  .test2 {
+    left: 360px;
+    top: 2%;
+    margin-top: 10px;
+  }
+
+  .no-tasks {
+    display: inline-block;
+    position: relative;
+    left: 185%;
+    top: 300%;
+    color: white;
+    font-family: cursive;
+    z-index: 0;
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d2b371b.css",
+    "main.js": "/static/js/main.dc437782.js",
+    "static/media/wallpaperflare.com_wallpaper(18).jpg": "/static/media/wallpaperflare.com_wallpaper(18).49380f450bf3256c1bc0.jpg",
+    "static/media/digital-art-nature-mountains-portrait-display-wallpaper-preview.jpg": "/static/media/digital-art-nature-mountains-portrait-display-wallpaper-preview.bb79dc8fd024c45489fa.jpg",
+    "index.html": "/index.html",
+    "main.1d2b371b.css.map": "/static/css/main.1d2b371b.css.map",
+    "main.dc437782.js.map": "/static/js/main.dc437782.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d2b371b.css",
+    "static/js/main.dc437782.js"
+  ]
+}
